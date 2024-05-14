@@ -6,3 +6,5 @@
 /gradle.xml
 /vcs.xml
 /misc.xml
+/jarRepositories.xml
+/kotlinc.xml
