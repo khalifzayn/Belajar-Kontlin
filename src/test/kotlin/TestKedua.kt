@@ -1,9 +1,9 @@
 fun main() {
     /**
-     *Penggunaan Val (Read-Only Variabel)
+     * Penggunaan Val (Read-Only Variabel)
      *
      * Val digunakan untuk mendeklarasikan variabel yang nilainya tidak bisa diubah
-     * setelah di deklarasikan. Variabel ini mirip dengan final di Java
+     * setelah di deklarasikan. Variabel ini mirip dengan final Java
      *
      * @author: Faisal Zuhri
      * */
@@ -13,7 +13,7 @@ fun main() {
 
     // name = "Zuhri" // ini akan menyebabkan error saat kompilasi
 
-    val age = 25 //Variabel yang hanya dapat dibaca bertipe Int
+    val age = 25 // Variabel yang dapat dibaca bertipe Int
     println(age) // Output: 25
 
     // age = 26 // ini akan menyebabkan error saat kompilasi
