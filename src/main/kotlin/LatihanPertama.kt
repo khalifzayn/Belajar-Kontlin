@@ -1,4 +1,13 @@
+class LatihanPertama {
+    val showingPrint = showingPrint()
+
+}
+
 fun main() {
+    showingPrint()
+}
+
+fun showingPrint() {
     // Menggunakan println untuk mencetak teks dan berpindah ke baris baru
     println("Hello, World!")
     println("Selamat datang di belajar Kotlin.")
