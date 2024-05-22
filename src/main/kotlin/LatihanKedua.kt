@@ -1,7 +1,7 @@
 /**
  * Kelas LatihanKedua berisi fungsi-fungsi untuk menampilkan data seperti nama dan umur.
  *
- * @author Faisal Zuhri
+ * @author Dwi Prasetya
  * @since 1.0
  * @version 1.0
  */
@@ -16,10 +16,12 @@ class LatihanKedua {
          * @sample LatihanKedua.Companion.showingDataName("John Doe")
          * @throws IllegalArgumentException jika valueName berisi karakter tidak valid.
          */
-        fun showingDataName(valueName: String = "") {
+        fun showingDataName(valueName: String = ""): String {
             // valueName = "Value Baru" ini akan menyebabkan error saat kompilasi
 
-            println("Nama: $valueName")
+            return valueName.also {
+                println("Nama: $valueName")
+            }
         }
 
         /**
@@ -29,11 +31,14 @@ class LatihanKedua {
          * @sample LatihanKedua.Companion.showingDataAge(25)
          * @throws IllegalArgumentException jika valueAge negatif.
          */
-        fun showingDataAge(valueAge: Int = 0) {
+        fun showingDataAge(valueAge: Int = 0): Int {
 
-            // valueAge = 24 ini akan menyebabkan error saat kompilasi
+            // valueAge = 27 ini akan menyebabkan error saat kompilasi
 
-            println("Age: $valueAge")
+            return valueAge.also {
+                println("Age: $valueAge")
+            }
+
         }
 
         /**
