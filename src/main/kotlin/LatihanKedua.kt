@@ -1,7 +1,7 @@
 /**
  * Kelas LatihanKedua berisi fungsi-fungsi untuk menampilkan data seperti nama dan umur.
  *
- * @author Dwi Prasetya
+ * @author Faisal Zuhri
  * @since 1.0
  * @version 1.0
  */
