@@ -2,7 +2,7 @@
  * Kelas LatihanKetiga merupakan kelas contoh untuk latihan.
  *
  * @since 1.0
- * @author Faisal
+ * @author Faisal Zuhri
  */
 class LatihanKetiga {
 
@@ -15,16 +15,18 @@ class LatihanKetiga {
          *
          * @since 1.0
          */
-        var message: String = "Hallo"
+        var message: String = ""
 
         /**
-         * Mengirimkan pesan yang telah dimodifikasi dengan menambahkan "Faisal" ke dalamnya.
+         * Mengirimkan pesan yang telah dimodifikasi dengan menambahkan "Arfan" ke dalamnya.
          *
          * @return Pesan yang telah dimodifikasi.
          * @since 1.0
          */
-        fun sendMessage(): String {
-            message += "Arfan"
+        fun sendMessage(
+            newValue: String
+        ): String {
+            message += newValue
             return message.also { value ->
                 println(value)
             }
@@ -42,5 +44,5 @@ class LatihanKetiga {
  */
 fun main() {
     LatihanKetiga.message = "Hi "
-    LatihanKetiga.sendMessage()
+    LatihanKetiga.sendMessage(newValue = "Faisal")
 }
