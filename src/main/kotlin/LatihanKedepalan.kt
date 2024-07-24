@@ -20,6 +20,10 @@ object LatihanKedelapan {
             println("Nilai Boolean Benar: $value")
         }
     }
+
+    fun displayFalseValue(): Any {
+     return displayFalseValue()
+    }
 }
 /**
  * Menampilkan nilai boolean yang salah (false) dan mengembalikan nilai tersebut.
